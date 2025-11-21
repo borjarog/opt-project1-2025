@@ -1,7 +1,19 @@
-# .gitignore
-.venv/
+# --- Python ---
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# --- Jupyter Notebooks ---
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
 .DS_Store
-opt-project1-2025.code-workspace
+
+# --- Archivos Temporales o Basura ---
+temp/
